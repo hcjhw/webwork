@@ -1,0 +1,111 @@
+
+div[class*="click"]{
+	float: right;
+	height: 20px;
+	width: 50%;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	background-color: #65c76f;
+	margin: 5px 0 0 0;
+}
+div.click1{
+	margin-top: 100px; 
+}
+div.change{
+	height: 20px;
+	width: 153.2px;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	margin-bottom: 0px;
+}
+div ul{
+	list-style-type: none;
+	padding: 0px;
+	position: relative;
+	top: 5%;
+}
+
+
+div[class*="slide"]{
+	float: right;
+	display: none;
+	height: 130px;
+	width: 150px;
+	background-color: #fff;
+	padding: 0px 10px;
+	margin: 0px;
+	border: 2px solid;
+	border-top-color: #5a99cf;
+	border-radius: 5px;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	list-style-type: none;
+}
+.table{
+	background-color: #fff;
+}
+section.video{
+	position: absolute;
+	left: 5%;
+	top: 50px;
+	width: 80%;
+	height: auto;
+
+}
+section.music{
+	position: absolute;
+	left: 5%;
+	top: 50px;
+	width: 80%;
+	height: auto;
+
+}
+section.picture{
+	position: absolute;
+	left: 5%;
+	top: 50px;
+	width: 80%;
+	height: auto;
+}
+table{
+	border-collapse: collapse;
+}
+table tr:hover{
+	background-color: #dcdcdc;
+}
+table tr:nth-child(odd):hover{
+	background-color: #dcdcdc;
+}
+table tr td a{
+	color: #000;
+}
+table tr th{
+	background-color: #04aa43;
+	text-align: left;
+	width: 250px;
+	padding: 10px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	border-collapse: collapse;
+	text-align: center;
+}
+table tr:nth-child(odd){
+	background-color: #b7f882;
+}
+table tr td{
+	text-align: center;
+	width: 23%;
+	padding: 10px 0;
+	border-spacing: 0px;
+	border-bottom: 1px solid #000;
+}
+table tr td.td{
+	padding: 0 0;
+}
+table tr td:last-child{
+	width: 8%;
+}

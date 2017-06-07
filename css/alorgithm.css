@@ -1,0 +1,19 @@
+.alorgithm{
+	width: 80%;
+	height: 400px;
+	position: relative;
+	left: 5%;
+	background-color: #fff;
+	border-radius: 5px;
+	font-family: "楷书";
+}
+.alorgithm h1{
+	font-size: 30px;
+	text-align: center;
+	position: relative;
+	top: 30%;
+}
+section.footer{
+	position:absolute;
+	 top: 800px;
+}

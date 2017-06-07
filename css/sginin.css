@@ -1,0 +1,64 @@
+
+h1[class^="sginin-h1"]{
+	font-family: "隶书";
+	color: #b3c8d0;
+}
+.sginin-h1-1{
+position: absolute;
+top: 200px;
+left: 550px;
+}
+.sginin-h1-2{
+position: absolute;
+top: 420px;
+left: 700px;
+}
+.sginin{
+	float: right;
+	width: 350px;
+	height: 500px;
+	padding: 10px;
+	color: #fff;
+	font-size: 18px;
+	margin: 200px 100px 0 0;
+}
+section input{
+	height: 30px;
+	width: 300px;
+	margin: 10px 0 20px 0;
+	padding: 3px;
+	font-size: 25px;
+	border: 3px;
+	border-radius: 8px;
+}
+section input:hover{
+	background-color: #ddd;
+}
+section button{
+	height: 30px;
+	width: 60px;
+	background-color: #097e32;
+	margin-left: 20px;
+	border-radius: 5px;
+}
+section button:hover{
+	background-color: #CCCCCC;
+}
+canvas.smile{
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	color: #fff;
+	margin: 260px 0 0 700px;
+}
+section.footer{
+	float: left;
+	position: absolute;
+	top: 900px;
+	width: 100%;
+	background-color:  #095d31;
+}
+p.footer{
+	text-align: center;
+	margin: 0px;
+}

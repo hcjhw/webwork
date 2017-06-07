@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>雨塘-资源</title>
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main-css.css">
+	<link rel="stylesheet" type="text/css" href="css/resources.css">
+</head>
+<body>
+<!--做一个立足于面向于杭电计算机学院的资源分享的网站-->
+<!--还在为到处找资源苦恼吗？这里我们帮你一站式解决！-->
+<!--同时提供提高编程能力的交流平台。不定期发布一些算法问题。-->
+
+<nav>
+	<ul>
+		<li class="nav-ul-li"><a href="call-us.html"><small><i class="fa fa-phone-square" aria-hidden="true"></i>联系我们</small></a></li>
+		<li class="nav-ul-li"><a href="sginin.html"><i class="fa fa-sign-in" aria-hidden="true"></i>登录</a></li>
+	</ul>
+</nav>
+<aside>
+<!--关于[att_=val,不光id有[id^=val][id*=val][id$=val],class也有[class^=val][class*=val][class$=val]-->
+<canvas id="rainPool" height="100" width="200"></canvas>
+<canvas id="rainPoolFont" height="100" width="200"></canvas>
+	<div class="click1"><i class="fa fa-film" aria-hidden="true"></i>视频</div>
+		<div class="slide1">
+			<ul>
+				<li onclick="videochange(1)">学习视频</li>
+				<li onclick="videochange(2)">纪录片</li>
+				<li onclick="videochange(3)">影视</li>
+			</ul>
+		</div>
+
+	<div class="click2"><i class="fa fa-music" aria-hidden="true"></i>音频
+	</div>
+		<div class="slide2">
+			<ul>
+				<li onclick="musicchange(1)">流行乐</li>
+				<li onclick="musicchange(2)">纯音乐</li>
+				<li onclick="musicchange(3)">唱片</li>
+			</ul>
+		</div>
+	<div class="click3"><i class="fa fa-file-image-o" aria-hidden="true"></i>图片
+
+	</div>
+		<div class="slide3">
+			<ul>
+				<li onclick="picchange(1)">天文</li>
+				<li onclick="picchange(2)">地理</li>
+				<li onclick="picchange(3)">机械图纸</li>
+			</ul>
+		</div>
+</aside>
+<section class="head">
+	<ul>
+		<li><a href="mainpage.html"><i class="fa fa-home fa-fw" aria-hidden="true"></i>首页</a></li>
+		<li><a href="course.html"><span><i class="fa fa-map-signs" aria-hidden="true"></i>教程</span></a></li>
+		<li><a href="alorgithm.html"><i class="fa fa-keyboard-o" aria-hidden="true"></i>算法</a></li>
+		<li><a href="discussroom.html"><span><i class="fa fa-coffee" aria-hidden="true"></i>讨论室</span></a></li>
+		<li><a href="e-book.html"><span><i class="fa fa-book" aria-hidden="true"></i>电子书</span></a></li>
+		<li><a href="resource.html"><i class="fa fa-server" aria-hidden="true"></i>资源</a></li>
+	</ul>
+</section>
+<section id="mainBody" class="mainBody">
+	<!--视频-->
+<section class="video">
+	<section class="learning-video" id="video-table1" style="display: block;">
+		<table class="table">
+			<tr>
+				<th>学习视频</th>	<th>上传者</th>	<th>日期</th>	<th>下载</th> <th></th>
+			</tr>
+			<tr>
+				<td>陈式太极</td>	<td>ydf</td>	<td>12月18日</td>	
+				<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><a href="resource-video.html"><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td></a>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td><td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td><td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	
+				<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td><td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td><td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	
+				<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td><td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td><td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+		</table>
+	</section>
+	<section class="documentary" id="video-table2" style="display: none;">
+		<table class="table">
+  		<tr>
+			<th>纪录片</th>	<th>上传者</th>	<th>日期</th>	<th>下载</th>	<th></th>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+		</tr><tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+		</tr>
+		</table>
+	</section>
+	<section class="TVandmove" id="video-table3" style="display: none;">
+		<table class="table">
+	 		<tr>
+				<th>影视</th>	<th>歌手</th>	<th>日期</th>	<th>下载</th>	<th></th>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-caret-square-o-right" aria-hidden="true"></i></td>
+			</tr>
+		</table>
+	</section>
+</section>
+<!--视频-->
+
+<!--音频-->
+<section class="music">
+	<section class="record" id="music-table1" style="display: none;">
+		<table class="table">
+			<tr>
+				<th>唱片名</th>	<th>上传者</th>	<th>日期</th>	<th>下载</th> <th></th>
+			</tr>
+			<tr>
+				<td>Tuank Tuank</td>	<td>ydf123</td>	<td>12月20日</td>	
+				<td><i class="fa fa-download" aria-hidden="true"></i></td> 
+				<td onclick="play2(1);" id="fa_play1"><i class="fa fa-play" aria-hidden="true" ></i></td>
+			</tr>
+			<audio src="music/Tunak_Tunak.mp3" preload="meta" id="audio1"></audio>
+			<tr>
+				<td class="td">爆ぜろリアル！弾けろシナプス！</td>	<td>ydf123</td>	<td>12月20日</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td onclick="play2(2);" id="fa_play2">
+					<i class="fa fa-play" aria-hidden="true"></i>
+				</td>
+			</tr>
+			<audio src="music/music2.mp3" preload="meta" id="audio2"></audio>
+			<tr>
+				<td>TheMass</td>	<td>ydf123</td>	<td>12月20日</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td onclick="play2(3);" id="fa_play3"><i class="fa fa-play" aria-hidden="true"></i></td>
+			</tr>
+			<audio src="music/TheMass.mp3" preload="meta" id="audio3"></audio>
+			</tr>
+			<tr>
+				<td>突撃!!</td>	<td>ydf123</td>	<td>12月20日</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td  onclick="play2(4);" id="fa_play4"><i class="fa fa-play" aria-hidden="true"></i></td>
+			</tr>
+			<audio src="music/num4.mp3" preload="meta" id="audio4"></audio>
+		</table>
+
+			</section>
+	<section class="abuslute-music" id="music-table2" style="display: none;">
+		<table class="table">
+  			<tr>
+			<th>音乐名</th>	<th>上传者</th>	<th>日期</th>	<th>下载</th> <th></th>
+		</tr>
+		<tr>
+			<td>Snow Dream</td>	<td>ydf123</td>	<td>12月20日</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td onclick="play2(5);" id="fa_play5">
+				<i class="fa fa-play" aria-hidden="true"></i>
+				</td>
+		</tr>
+		<audio src="music/Snowdream.mp3" id="audio5"></audio>
+		<tr> 
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-play" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+				<td><i class="fa fa-play" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			<td><i class="fa fa-play" aria-hidden="true"></i></td>
+		</tr>
+		</table>
+	</section>
+
+	<section class="pop-music" id="music-table3" style="display: none;">
+		<table class="table">
+	 		<tr>
+				<th>歌曲</th>	<th>歌手</th>	<th>日期</th>	<th>下载</th> <th></th>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+					<td><i class="fa fa-play" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+					<td><i class="fa fa-play" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+					<td><i class="fa fa-play" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+					<td><i class="fa fa-play" aria-hidden="true"></i></td>
+			</tr>
+		</table>
+	</section>
+</section>
+<!--音频-->
+
+<!--图片-->
+<section class="picture">
+	<section class="astronomy" id="picture-table1" style="display: none;">
+		<table class="table">
+			<tr>
+				<th>天文</th>	<th>上传者</th>	<th>日期</th>	<th>下载</th>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			</tr>
+			</tr>
+			<tr>
+				<td>111</td>	<td>222</td>	<td>333</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			</tr>
+		</table>
+	</section>
+	<section class="geograhy" id="picture-table2" style="display: none;">
+		<table class="table">
+  			<tr>
+			<th>地理</th>	<th>上传者</th>	<th>日期</th>	<th>下载</th>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+		</tr>
+		<tr>
+			<td>444</td>	<td>555</td>	<td>666</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+		</tr>
+		</table>
+	</section>
+	<section class="TVandmove" id="picture-table3" style="display: none;">
+		<table class="table">
+	 		<tr>
+				<th>机械图纸</th>	<th>上传者</th>	<th>日期</th>	<th>下载</th>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			</tr>
+			<tr>
+				<td>777</td>	<td>888</td>	<td>999</td>	<td><i class="fa fa-download" aria-hidden="true"></i></td>
+			</tr>
+		</table>
+	</section>
+</section>
+</section>
+<section id="footer" class="footer">
+	<p class="footer"><small> 本网站仅供学习和交流,如有侵权行为请联系站长</small></p>
+	<p class="footer"><small>站长联系方式：***********</small></p>
+</section>
+	<script src="js/jquery-3.1.1.js"></script>
+	<script type="text/javascript" src="js/resource.js"></script>
+	<script type="text/javascript" src="js/bace.js"></script>
+</body>
+</html>

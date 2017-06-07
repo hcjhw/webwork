@@ -1,0 +1,53 @@
+section [class*="box"]{
+	width: 90%;
+	height: 200px;
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 25px 0px 25px 25px;
+	background-color: #eee;
+}
+section .boxbig{
+	width: 100%;
+	height: 240px;
+	margin: 0px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #eee;
+}
+section.new,.hot,.content{
+	background-color: #3c7949;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	width: 80%;
+	border-radius: 10px;
+	margin-top: 30px; 
+}
+h1.big{
+	font-size: 25px;
+	color: #0bec20;
+	margin: 15px;
+}
+h1.big:hover{
+	color: #3bd049;
+}
+.box{
+	
+}
+.bottomBar{
+	float: right;
+	vertical-align: bottom;
+}
+.bottomBar-p{
+	margin: 30px 0 0 0;
+}
+section div ul li i{
+	color: #000;
+}
+section.footer{
+	float: left;
+	position: absolute;
+	top: 2100px;
+	width: 100%;
+	background-color: #095d31;
+}

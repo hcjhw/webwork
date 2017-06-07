@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body onload="draw();">
+<canvas id="rainPool" height="400" width="400"></canvas>
+<script type="text/javascript">
+  function draw() {
+  
+  
+  var rainPool = document.getElementById('rainPool').getContext('2d');
+  
+
+  // Create a circular clipping path
+  rainPool.beginPath();
+  rainPool.arc(50,50,50,0,Math.PI*2,false);
+  rainPool.clip();
+  console.log(rainPool.arc);
+  var image = new Image();
+  image.src = 'css/image/rainPool.gif';
+  image.height = 100;
+  image.width = 200;
+
+  image.onload = function draw(){
+    rainPool.drawImage(image,0,0);
+    rainPool.clearRect(0,0,200,200);
+    rainPool.scale(0.4,0.4);
+    rainPool.drawImage(image,0,0);
+   /* rainPool.beginPath();
+    rainPool.arc(20,20,20,-Math.PI/2,-Math.PI,true);
+    rainPool.lineTo(0,0);
+    rainPool.lineTo(20,0);
+    rainPool.clip();*/
+  }
+  
+ 
+}
+
+</script>
+</body>
+</html>
