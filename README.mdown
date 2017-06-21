@@ -1,0 +1,89 @@
+
+# 开发报告 #
+
+
+## 1.策划思路 ##
+其实我是想做一个资源共享网站的，但是静态的资源共享网站不太好把握，所以就做成了这样一个混搭风的资源共享网站-雨塘
+
+----------
+## 2.页面结构 ##
+页面包括
+-  [首页][1] 乍一看就是个评论页面，其实就是评论页面，只不过多了导航栏而已!
+- [电子书] [3] 本来想做漂亮一点的，但时间不够（我动手比较晚），结果就是一个简单的表单页！![此处输入图片的描述][2]
+- [资源][4] 和电子书页面差不多，基本上就是一个表单页，但是具有一些动态效果，右侧也有隐藏烂![此处输入图片的描述][6] - [其他页][5] 其他两个页面还没有完成，原谅我太懒。![此处输入图片的描述][8]
+
+
+----------
+
+
+## 3.技术指标 ##
+
+ - 使用HTML5,CSS3,jQuery
+ - 开发工具：谷歌浏览器,Sublime Text3及其插件。
+ - 参考了w3s里的很多知识
+
+----------
+
+## 4.技术点说明 ##
+ -  我感觉我的网站不是太复杂不过还是要介绍一下。
+ - 一.播放的动态效果，在资源页面是有一点动态效果的
+ -下面是代码  用的是jQuery
+ 
+     	$(".clickl").click(function(){
+       $(".slide1").slideToggle("100";
+	   $(".click1").slideUp("100")
+	   $(".slide2").slideToggle("100";
+           $(".slide3").slideToggle("100";
+          });
+	
+ - 二.侧边栏的滑动效果
+  下面是代码  用的也是jQuery
+
+         $(document).ready(function(){
+        $(".flip").click(function(){
+        $(".panel").slideDown("slow");
+         });
+    
+	   
+	   
+           
+    
+
+	
+
+
+- 
+本来计划做两个详细页的后来发现有点难，详细页的开头图片本来是好几个图片截取排列定位得到的后来觉得太麻烦就排好之后直接截图做了背景。截取部分图片的代码我试验了一下觉得我驾驭不了，不仅要截取部分还要精准定位图片位置，我觉得太麻烦了所以就做了只做了一个详细页，下面用了几个表格。代码也比较简单主要是定位用padding和margin定位有点麻烦。
+
+**css的padding属性**
+    padding是内边距包括上下左右四个方向可以用百分比和厘米来表示。
+    
+    	h1 {
+     	padding-top: 10px;
+     	padding-right: 0.25em;
+    	padding-bottom: 2ex;
+   	padding-left: 20%;
+   	 }
+	 
+
+ **css的margin属性**
+ margin属性和padding属性差不多但margin表示外边距也是包括上下左右四个方向一样用百分比和厘米来表示。
+ 
+	 h2 {
+	  margin-top: 20px;
+	  margin-right: 30px;
+	  margin-bottom: 30px;
+	  margin-left: 20px;
+	  }
+
+	
+----------
+## 5.开发感受
+- 这次前端作业真的让我纠结了很久，虽然做的不是很好，但这是我的第一个作品，我已经比较满意了。希望下一次能做的更好。
+
+
+
+  [1]: https://hcjhw.github.io/webwork/
+  [3]: https://hcjhw.github.io/webwork/e-book.html
+  [4]: https://hcjhw.github.io/webwork/resource.html
+  [5]: https://hcjhw.github.io/webwork/course.html
